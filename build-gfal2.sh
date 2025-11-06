@@ -13,6 +13,7 @@ cmake \
     -DPLUGIN_RFIO=OFF \
     -DLIB_SUFFIX="" \
     -DCMAKE_CXX_STANDARD=14 \
+    -DCMAKE_POLICY_VERSION_MINIMUM=3.5 \
     ..
 
 make -j${CPU_COUNT}
