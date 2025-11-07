@@ -20,6 +20,3 @@ before-all = [
 before-build = [
   "./build-boost.sh",
 ]
-
-[tool.cibuildwheel.environment]
-CMAKE_POLICY_VERSION_MINIMUM = "3.5"
