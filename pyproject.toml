@@ -5,18 +5,15 @@ build = [
   "cp39-*",
 ]
 
-before-all = [
-  "./apply-patches.sh",
-]
-
 # Install system library
 [tool.cibuildwheel.linux]
 
 # global setup
 before-all = [
+  "./apply-patches.sh",
   "./install-build-dependencies.sh",
   "./build-gfal2.sh",
-  "./get-boost.sh",
+  "./get-boost.sh",  
 ]
 
 # needs to be build for each python version
