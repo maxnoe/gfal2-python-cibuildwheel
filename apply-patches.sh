@@ -7,4 +7,4 @@ patch -p1 --forward -r - < ../patches/gfal2/0002-cryptopp.patch
 
 echo "Applying patches in gfal2-python"
 cd ../gfal2-python/
-patch -p1 --forward -r - < ../patches/gfal2-python/0001-Force-CMake-to-use-the-correct-Python.patch
+# patch -p1 --forward -r - < ../patches/gfal2-python/0001-Force-CMake-to-use-the-correct-Python.patch
